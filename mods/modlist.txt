@@ -1,0 +1,57 @@
+AnotherCommonBugFix(mcbbs) <------ Optional
+artisanworktables-1.12.2-1.22.15
+athenaeum-1.12.2-1.17.4
+base-1.12.2-3.13.0
+bdlib-1.14.3.12-mc1.12.2
+BetterFps-1.4.8
+CarryOn+MC1.12.2+v1.12.3
+CommonCapabilities-1.12.2-2.4.5
+ContentTweaker-1.12.2-4.9.1
+CraftingTweaks_1.12.2-8.1.9
+CraftTweake 2r2-1.12-4.1.20
+CraftTweakerSync1.0
+crafttweakerutils-0.5a
+Cucumber-1.12.2-1.1.3
+CyclopsCore-1.12.2-1.6.1
+engineersdecor-1.12.2-1.0.19
+exnihilocreatio-1.12.2-0.4.7.2
+extrautils2-1.12-1.9.9
+Fart Generator 1.1.0
+FastWorkbench-1.12.2-1.7.2
+foamfix-0.10.5-1.12.2
+ForgeEndertech-1.12.2-4.5.0.0-build.0435
+Forgelin-1.8.4
+FTBLib-5.4.7.0
+FTBMoney-1.1.0.42
+FTBQuests-1.8.0.237
+FTBUtilities-5.4.0.124
+ImmersiveEngineering-0.12-92
+IntegratedCrafting-1.12.2-1.0.8
+IntegratedDynamics-1.12.2-1.1.2
+IntegratedTunnels-1.12.2-1.6.10
+InventoryTweaks-1.64+dev.146
+inworldcrafting-1.12.2-1.2.0-universal
+ItemFilters-1.0.3.12
+Just Enough Items1.12.2-4.15.0.293
+JustEnoughCharacters-1.12.0-3.4.5
+JustEnoughResources-1.12.2-0.9.2.60
+LibraryEx-1.12.2-1.1.1
+LootTweaker-0.1.5+MC1.12.2
+Mantle-1.12-1.3.3.55
+modtweaker-4.0.17
+modularmachinery-1.12.2-1.11.1
+MoreBuckets-1.12.2-1.0.4
+MoreTweaker-1.0.5
+MTLib-3.0.6
+NetherEx-1.12.2-2.1.1
+MTLib-3.0.6
+OreExcavation-1.4.137
+Patchouli-1.0-20
+pollution-of-the-realms: AdPother-1.12.2-1.1.2.0-build.0445
+probe-0.1.22
+TConstruct-1.12.2-2.13.0.183
+TinkerSurvival-1.12.2-1.2.2.1
+TinkerToolLeveling-1.12.2-1.1.0
+TreeGrowingSimulator2017-1.0.1
+Xaeros_Minimap_FP20.5.1_Forge_1.12
+YABBA-1.1.2.54
