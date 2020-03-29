@@ -1,0 +1,9 @@
+item.contenttweaker.terrae.name=土粉
+item.contenttweaker.small_stone.name=石粒
+item.contenttweaker.small_cobble_stone.name=圆石粒
+item.contenttweaker.andesite_pebble.name=安山石粒
+item.contenttweaker.cement_dust.name=水泥粉
+item.contenttweaker.mortar.name=水泥浆
+item.contenttweaker.tool_kit_basic.name=基础工具包
+item.contenttweaker.tool_kit_advanced.name=进阶工具包
+itemGroup.mymaterials=材料

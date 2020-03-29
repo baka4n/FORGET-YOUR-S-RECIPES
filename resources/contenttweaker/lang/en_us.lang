@@ -1,0 +1,9 @@
+item.contenttweaker.terrae.name=terrae
+item.contenttweaker.small_stone.name=small cobble stone
+item.contenttweaker.small_cobble_ston.name=small stone
+item.contenttweaker.andesite_pebble.name=andesite pebble
+item.contenttweaker.cement_dust.name=cement dust
+item.contenttweaker.mortar.name=mortar
+item.contenttweaker.tool_kit_basic.name=basic tool kit
+item.contenttweaker.tool_kit_advanced.name=advanced tool kit
+itemGroup.mymaterials=materials
