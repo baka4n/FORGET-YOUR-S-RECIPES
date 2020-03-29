@@ -1,0 +1,63 @@
+{
+  "minecraft:gold_ore:0": [
+    {
+      "drop": "exnihilocreatio:item_ore_gold:0",
+      "chance": 0.25,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_gold:0",
+      "chance": 0.25,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_gold:0",
+      "chance": 0.4,
+      "meshLevel": 4
+    }
+  ],
+  "ore:gravel": [
+    {
+      "drop": "minecraft:flint:-1",
+      "chance": 0.25,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:flint:-1",
+      "chance": 0.25,
+      "meshLevel": 2
+    },
+    {
+      "drop": "minecraft:diamond:-1",
+      "chance": 0.016,
+      "meshLevel": 4
+    },
+    {
+      "drop": "minecraft:emerald:-1",
+      "chance": 0.016,
+      "meshLevel": 4
+    }
+  ],
+  "minecraft:iron_ore:0": [
+    {
+      "drop": "exnihilocreatio:item_ore_iron:0",
+      "chance": 0.9,
+      "meshLevel": 4
+    },
+	{
+	  "drop": "exnihilocreatio:item_ore_iron:0",
+	  "chance": 0.5,
+	  "meshLevel": 3
+	},
+	{
+	  "drop": "exnihilocreatio:item_ore_iron:0",
+	  "chance": 0.4,
+	  "meshLevel": 2
+	},
+	{
+	  "drop": "exnihilocreatio:item_ore_iron:0",
+	  "chance": 0.3,
+	  "meshLevel": 1
+	}
+  ]
+}
