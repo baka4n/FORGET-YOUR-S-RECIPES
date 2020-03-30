@@ -203,5 +203,10 @@
     "value": 0.1,
     "compostBlock": "minecraft:dirt:0",
     "color": "35a82a"
+  },
+  "contenttweaker:terrae:0": {
+	"value": 0.25,
+	"compostBlock": "minecraft:dirt:0",
+	"color": "cc6600"
   }
 }
