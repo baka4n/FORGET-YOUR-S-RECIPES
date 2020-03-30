@@ -93,7 +93,7 @@
 		<tag>convenience</tag>
 		<condition type="config">mechanical_drying_basin</condition>
 		<input>
-			<fluid amount="250">water</fluid>
+			<fluid amount="500">water</fluid>
 			<item meta="*">minecraft:stained_hardened_clay</item>
 		</input>
 		<output>
@@ -145,20 +145,6 @@
 		</output>
 		<properties>
 			<duration>10</duration>
-		</properties>
-	</recipe>
-
-	<recipe type="integrateddynamics:mechanical_dryingbasin">
-		<tag>convenience</tag>
-		<condition type="config">mechanical_drying_basin</condition>
-		<input>
-			<fluid amount="1000">lava</fluid>
-		</input>
-		<output>
-			<item>minecraft:magma</item>
-		</output>
-		<properties>
-			<duration>100</duration>
 		</properties>
 	</recipe>
 

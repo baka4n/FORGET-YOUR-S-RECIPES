@@ -1,8 +1,11 @@
 {
   "minecraft:magma:-1": 2,
-  "minecraft:glowstone:-1": 2,
+  "minecraft:glowstone:-1": 1,
   "minecraft:torch:-1": 1,
   "minecraft:flowing_lava:-1": 3,
-  "minecraft:lava:-1": 3,
-  "minecraft:fire:-1": 4
+  "minecraft:lava:-1": 2,
+  "minecraft:fire:-1": 2,
+  "minecraft:redstone_torch:0": 1,
+  "integrateddynamics:menril_torch:0": 2,
+  "integrateddynamics:menril_torch_stone:0": 2
 }

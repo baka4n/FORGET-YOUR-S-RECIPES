@@ -5,44 +5,11 @@
         <tag>ores</tag>
         <condition type="config">squeezer</condition>
         <input>
-            <item>minecraft:stone</item>
-        </input>
-        <output>
-            <item>minecraft:cobblestone</item>
-        </output>
-    </recipe>
-
-    <recipe type="integrateddynamics:squeezer">
-        <tag>ores</tag>
-        <condition type="config">squeezer</condition>
-        <input>
-            <item>minecraft:cobblestone</item>
-        </input>
-        <output>
-            <item>minecraft:gravel</item>
-        </output>
-    </recipe>
-
-    <recipe type="integrateddynamics:squeezer">
-        <tag>ores</tag>
-        <condition type="config">squeezer</condition>
-        <input>
             <item>minecraft:gravel</item>
         </input>
         <output>
             <item>minecraft:flint</item>
             <item chance="0.5">minecraft:flint</item>
-        </output>
-    </recipe>
-
-    <recipe type="integrateddynamics:squeezer">
-        <tag>ores</tag>
-        <condition type="config">squeezer</condition>
-        <input>
-            <item>minecraft:stonebrick</item>
-        </input>
-        <output>
-            <item meta="2">minecraft:stonebrick</item>
         </output>
     </recipe>
 
@@ -71,46 +38,6 @@
     <recipe type="integrateddynamics:squeezer">
         <tag>ores</tag>
         <condition type="config">squeezer</condition>
-        <input>
-            <item>minecraft:lapis_ore</item>
-        </input>
-        <output>
-            <item meta="4" amount="8">minecraft:dye</item>
-            <item meta="4" amount="2" chance="0.5">minecraft:dye</item>
-            <item meta="4" amount="2" chance="0.5">minecraft:dye</item>
-        </output>
-    </recipe>
-
-    <recipe type="integrateddynamics:squeezer">
-        <tag>ores</tag>
-        <condition type="config">squeezer</condition>
-        <input>
-            <item>minecraft:redstone_ore</item>
-        </input>
-        <output>
-            <item amount="8">minecraft:redstone</item>
-            <item amount="2" chance="0.5">minecraft:redstone</item>
-            <item amount="2" chance="0.5">minecraft:redstone</item>
-        </output>
-    </recipe>
-
-    <recipe type="integrateddynamics:squeezer">
-        <tag>ores</tag>
-        <condition type="config">squeezer</condition>
-        <condition type="oredict">oreCopper</condition>
-        <condition type="oredict">dustCopper</condition>
-        <input>
-            <item type="oredict">oreCopper</item>
-        </input>
-        <output>
-            <item type="oredict">dustCopper</item>
-            <item type="oredict" chance="0.75">dustCopper</item>
-        </output>
-    </recipe>
-
-    <recipe type="integrateddynamics:squeezer">
-        <tag>ores</tag>
-        <condition type="config">squeezer</condition>
         <condition type="oredict">oreTin</condition>
         <condition type="oredict">dustTin</condition>
         <input>
@@ -119,48 +46,6 @@
         <output>
             <item type="oredict">dustTin</item>
             <item type="oredict" chance="0.75">dustTin</item>
-        </output>
-    </recipe>
-
-    <recipe type="integrateddynamics:squeezer">
-        <tag>ores</tag>
-        <condition type="config">squeezer</condition>
-        <condition type="oredict">oreSilver</condition>
-        <condition type="oredict">dustSilver</condition>
-        <input>
-            <item type="oredict">oreSilver</item>
-        </input>
-        <output>
-            <item type="oredict">dustSilver</item>
-            <item type="oredict" chance="0.75">dustSilver</item>
-        </output>
-    </recipe>
-
-    <recipe type="integrateddynamics:squeezer">
-        <tag>ores</tag>
-        <condition type="config">squeezer</condition>
-        <condition type="oredict">oreLead</condition>
-        <condition type="oredict">dustLead</condition>
-        <input>
-            <item type="oredict">oreLead</item>
-        </input>
-        <output>
-            <item type="oredict">dustLead</item>
-            <item type="oredict" chance="0.75">dustLead</item>
-        </output>
-    </recipe>
-
-    <recipe type="integrateddynamics:squeezer">
-        <tag>ores</tag>
-        <condition type="config">squeezer</condition>
-        <condition type="oredict">oreNickel</condition>
-        <condition type="oredict">dustNickel</condition>
-        <input>
-            <item type="oredict">oreNickel</item>
-        </input>
-        <output>
-            <item type="oredict">dustNickel</item>
-            <item type="oredict" chance="0.75">dustNickel</item>
         </output>
     </recipe>
 
