@@ -62,3 +62,6 @@ YABBA-1.1.2.54
 
 2020 3/30 add
 chopdownupdated-1.12.2-1.2.4
+DoggyTalents-1.12.2-1.15.1.4-universal
+SereneSeasons-1.12.2-1.2.18-universal
+ToughAsNails-1.12.2-3.1.0.141-universal
