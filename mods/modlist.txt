@@ -49,7 +49,7 @@ MoreTweaker-1.0.5
 MTLib-3.0.6
 NetherEx-1.12.2-2.1.1
 MTLib-3.0.6
-OreExcavation-1.4.137
+OreExcavation-1.4.137 to 2020/3/30 delete it
 Patchouli-1.0-20
 pollution-of-the-realms: AdPother-1.12.2-1.1.2.0-build.0445
 probe-0.1.22
@@ -59,3 +59,6 @@ TinkerToolLeveling-1.12.2-1.1.0
 TreeGrowingSimulator2017-1.0.1
 Xaeros_Minimap_FP20.5.1_Forge_1.12
 YABBA-1.1.2.54
+
+2020 3/30 add
+chopdownupdated-1.12.2-1.2.4
