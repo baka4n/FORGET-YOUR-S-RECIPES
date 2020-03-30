@@ -94,6 +94,9 @@ global artisans_chisel_wood as IItemStack = <artisanworktables:artisans_chisel_w
 global teleporter_1 as IItemStack = <extrautils2:teleporter:1>;
 global compressedcobblestone_7 as IItemStack = <extrautils2:compressedcobblestone:7>;
 global compressedcobblestone_6 as IItemStack = <extrautils2:compressedcobblestone:6>;
+global lever as IItemStack = <minecraft:lever>;
+global immtool_3 as IItemStack = <immersiveengineering:tool:3>;
+global immtool as IItemStack = <immersiveengineering:tool>;
 
 global fremove as IItemStack[] = [
     <minecraft:iron_ingot>
@@ -136,7 +139,8 @@ global removes as IItemStack[] = [
     <integrateddynamics:squeezer>, <artisanworktables:artisans_handsaw_wood>,
     <artisanworktables:artisans_handsaw_bone>, <artisanworktables:artisans_handsaw_gold>,
     <artisanworktables:artisans_handsaw_iron>, <artisanworktables:artisans_handsaw_diamond>,
-    <integrateddynamics:drying_basin>, <extrautils2:teleporter:1>
+    <integrateddynamics:drying_basin>, <extrautils2:teleporter:1>,
+    <immersiveengineering:tool:3>
 ];
 
 global strremove as string[] = [
