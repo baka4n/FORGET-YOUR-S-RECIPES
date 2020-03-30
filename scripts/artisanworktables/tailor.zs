@@ -22,11 +22,3 @@ RecipeBuilder.get("tailor")
     .addOutput(item_mesh_1)
 	.addTool(artisansNeedle, 32)
     .create();
-
-RecipeBuilder.get("tailor")
-    .setShaped([
-        [wheat_seeds, wheat_seeds], 
-        [wheat_seeds, wheat_seeds]])
-    .addOutput(grass_fiber)
-    .addTool(artisansNeedle, 10)
-    .create();
