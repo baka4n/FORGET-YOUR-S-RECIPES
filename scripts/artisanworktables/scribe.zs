@@ -29,7 +29,7 @@ RecipeBuilder.get("scribe")
 
 RecipeBuilder.get("scribe")
     .setShaped([
-        [null, info.reuse(), null],
+        [book, <minecraft:carpet:14>, book],
         [diamond, obsidian, diamond], 
         [obsidian, obsidian, obsidian]])
     .addOutput(enchanting_table)
@@ -64,3 +64,9 @@ RecipeBuilder.get("scribe")
     .addTool(artisansQuill, 150)
     .addOutput(drying_basin)
     .create();
+	
+RecipeBuilder.get("scribe")
+  .setShapeless([immtool, book])
+  .addTool(artisansPencil, 32)
+  .addOutput(immtool_3)
+  .create();
