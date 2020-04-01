@@ -11,7 +11,7 @@ events.onBlockHarvestDrops(
     function(event as HarvestDrop) {
         val ID as string = event.block.definition.id;
         if(ID == "minecraft:diamond_ore") {
-            event.drops = [<minecraft:diamond_ore>];
+            event.drops = [diamond_ore];
         }
     }
 );
@@ -38,6 +38,6 @@ events.onBlockHarvestDrops(
 );
 
 static stick as WeightedItemStack[] = [
-    <minecraft:stick> % 29,
-    <minecraft:stick> * 2 % 1
+    stick % 29,
+    stick * 2 % 1
 ];

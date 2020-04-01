@@ -14,15 +14,15 @@ events.onBlockHarvestDrops(
         
 
         if(event.silkTouch && ID == "minecraft:dirt") {
-            event.drops = [<contenttweaker:terrae> * 3 % 100];
+            event.drops = [terrae * 3 % 100];
         }
 
         if(event.silkTouch && ID == "minecraft:grass") {
-            event.drops = [<contenttweaker:terrae> * 3 % 100];
+            event.drops = [terrae * 3 % 100];
         }
 
         if(ID == "minecraft:dirt" || ID == "minecraft:grass") {
-            event.drops = [<contenttweaker:terrae> * 2 % 100];
+            event.drops = [terrae * 2 % 100];
         }
     }
 );
@@ -32,10 +32,10 @@ events.onBlockHarvestDrops(
         val ID as string = event.block.definition.id;
 
         if(event.silkTouch && ID == "minecraft:cobblestone") {
-            event.drops = [<tinkersurvival:rock_stone> * 4 % 100];
+            event.drops = [rock_stone * 4 % 100];
         }
         if(ID == "minecraft:cobblestone") {
-            event.drops = [<tinkersurvival:rock_stone> * 3 % 100];
+            event.drops = [rock_stone * 3 % 100];
         }
     }
 );
@@ -45,7 +45,7 @@ events.onBlockHarvestDrops(
         val ID as string = event.block.definition.id;
         val meta as int = event.block.meta;
         if(event.silkTouch && ID == "minecraft:stone") {
-            event.drops = [<contenttweaker:small_stone> * 3 % 100];
+            event.drops = [small_stone * 3 % 100];
         }
         if(ID == "minecraft:stone" && meta == 0) {
             event.drops = smallstones;
@@ -55,8 +55,8 @@ events.onBlockHarvestDrops(
 );
 
 static smallstones as WeightedItemStack[] = [
-    <tinkersurvival:rock_stone> * 2 % 80, 
-    <contenttweaker:small_stone> * 2 % 20
+    rock_stone * 2 % 80, 
+    small_stone * 2 % 20
 ];
 
 events.onBlockHarvestDrops(
@@ -64,7 +64,7 @@ events.onBlockHarvestDrops(
         val ID as string = event.block.definition.id;
         val meta as int = event.block.meta;
         if(ID == "minecraft:stone" && meta == 5) {
-            event.drops = [<contenttweaker:andesite_pebble> * 2 % 100];
+            event.drops = [andesite_pebble * 2 % 100];
         }
     }
 

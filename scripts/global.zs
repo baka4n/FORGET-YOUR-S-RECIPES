@@ -2,6 +2,12 @@
 // auther baka4n
 import crafttweaker.item.IItemStack;
 
+global concrete_powder as IItemStack = <minecraft:concrete_powder>;
+global diamond_ore as IItemStack = <minecraft:diamond_ore>;
+global dirt as IItemStack = <minecraft:dirt>;
+global cement_dust as IItemStack = <contenttweaker:cement_dust>;
+global andesite_pebble as IItemStack = <contenttweaker:andesite_pebble>;
+global small_stone as IItemStack = <contenttweaker:small_stone>;
 global mortar as IItemStack = <contenttweaker:mortar>;
 global terrae as IItemStack = <contenttweaker:terrae>;
 global bucket as IItemStack = <minecraft:bucket>;
@@ -13,6 +19,7 @@ global flint as IItemStack = <minecraft:flint>;
 global furnaces as IItemStack = <minecraft:furnace>;
 global quartz_bucket as IItemStack = <morebuckets:quartz_bucket>;
 global sand as IItemStack = <minecraft:sand>;
+global sand_1 as IItemStack = <minecraft:sand:1>;
 global stick as IItemStack = <minecraft:stick>;
 global stone as IItemStack = <minecraft:stone>;
 global strings as IItemStack = <minecraft:string>;
@@ -30,6 +37,8 @@ global item_mesh_1 as IItemStack = <exnihilocreatio:item_mesh:1>;
 global item_mesh_2 as IItemStack = <exnihilocreatio:item_mesh:2>;
 global wooden_pickaxe as IItemStack = <minecraft:wooden_pickaxe>;
 global wooden_axe as IItemStack = <minecraft:wooden_axe>;
+global wooden_hoe as IItemStack = <minecraft:wooden_hoe>;
+global greenhouse_glass as IItemStack = <sereneseasons:greenhouse_glass>;
 global stone_pickaxe_all as IItemStack = <minecraft:stone_pickaxe:*>;
 global pattern as IItemStack = <tconstruct:pattern>;
 global artisans_trowel_flint as IItemStack = <artisanworktables:artisans_trowel_flint>;
@@ -52,6 +61,9 @@ global immmetal_39 as IItemStack = <immersiveengineering:metal:39>;
 global immmaterial_1 as IItemStack = <immersiveengineering:material:1>;
 global immmaterial_2 as IItemStack = <immersiveengineering:material:2>;
 global immmaterial_3 as IItemStack = <immersiveengineering:material:3>;
+global immmaterial_8 as IItemStack = <immersiveengineering:material:8>;
+global immmaterial_26 as IItemStack = <immersiveengineering:material:26>;
+global immtreated_wood as IItemStack = <immersiveengineering:treated_wood>;
 global tooltables_1 as IItemStack = <tconstruct:tooltables>;
 global tooltables_1_1 as IItemStack = <tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}});
 global tooltables_2_1 as IItemStack = <tconstruct:tooltables:2>;
@@ -103,7 +115,24 @@ global lever as IItemStack = <minecraft:lever>;
 global immtool_3 as IItemStack = <immersiveengineering:tool:3>;
 global immtool as IItemStack = <immersiveengineering:tool>;
 global redstone as IItemStack = <minecraft:redstone>;
-
+global decorativesolidwood_1 as IItemStack = <extrautils2:decorativesolidwood:1>;
+global extrautils2_machine as IItemStack = <extrautils2:machine>;
+global iron_component as IItemStack = <immersiveengineering:material:8>;
+global steel_component as IItemStack = <immersiveengineering:material:9>;
+global redstone_conector as IItemStack = <immersiveengineering:connector:12>;
+global wood_rod as IItemStack = <tconstruct:tool_rod>.withTag({Material: "wood"});
+global iron_hammer_head as IItemStack = <tconstruct:hammer_head>.withTag({Material: "iron"});
+global piston as IItemStack = <minecraft:piston>;
+global idcoal_generator as IItemStack = <integrateddynamics:coal_generator>;
+global light_engineering_block as IItemStack = <immersiveengineering:metal_decoration0:4>;
+global heavy_engineering_block as IItemStack = <immersiveengineering:metal_decoration0:5>;
+global redstone_engineering_block as IItemStack = <immersiveengineering:metal_decoration0:3>;
+global steel_scaffolding as IItemStack = <immersiveengineering:metal_decoration1:1>;
+global immmetal_device1_13 as IItemStack = <immersiveengineering:metal_device1:13>;
+global aluminium_scaffolding as IItemStack = <immersiveengineering:metal_decoration1:5>;
+global mc_dye_6 as IItemStack = <minecraft:dye:6>;
+global magndusts_1 as IItemStack = <magneticraft:dusts:1>;
+global extrautils2_machine_enchant as IItemStack = <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"})
 global fremove as IItemStack[] = [
     <minecraft:iron_ingot>
 ];
@@ -151,7 +180,8 @@ global removes as IItemStack[] = [
 	<immersiveengineering:metal_decoration0:4>, <immersiveengineering:metal_decoration0:5>,
 	<immersiveengineering:wooden_device0:2>, <immersiveengineering:material:2>,
 	<immersiveengineering:material:3>, <immersiveengineering:metal:38>,
-	<immersiveengineering:metal:31>, <immersiveengineering:metal:30>
+	<immersiveengineering:metal:31>, <immersiveengineering:metal:30>,
+	<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"})
 ];
 
 global strremove as string[] = [

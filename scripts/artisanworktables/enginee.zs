@@ -7,22 +7,11 @@ val artisansSpanner = <ore:artisansSpanner>;
 val plateiron = <ore:plateIron>;
 val platesteel = <ore:plateSteel>;
 val platealuminum = <ore:plateAluminum>;
-val wood_rod = <tconstruct:tool_rod>.withTag({Material: "wood"});
-val iron_hammer_head = <tconstruct:hammer_head>.withTag({Material: "iron"});
-val piston = <minecraft:piston>;
 val steel = <ore:ingotSteel>;
 val copper = <ore:ingotCopper>;
 val Electrum = <ore:ingotElectrum>;
 val stickSteel = <ore:stickSteel>;
 val stickAluminum = <ore:stickAluminum>;
-val iron_component = <immersiveengineering:material:8>;
-val steel_component = <immersiveengineering:material:9>;
-val redstone_conector = <immersiveengineering:connector:12>;
-val light_engineering_block = <immersiveengineering:metal_decoration0:4>;
-val heavy_engineering_block = <immersiveengineering:metal_decoration0:5>;
-val redstone_engineering_block = <immersiveengineering:metal_decoration0:3>;
-val steel_scaffolding = <immersiveengineering:metal_decoration1:1>;
-val aluminium_scaffolding = <immersiveengineering:metal_decoration1:5>;
 
 RecipeBuilder.get("engineer")
   .setShaped([

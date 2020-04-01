@@ -70,3 +70,13 @@ RecipeBuilder.get("scribe")
   .addTool(artisansPencil, 32)
   .addOutput(immtool_3)
   .create();
+
+RecipeBuilder.get("scribe")
+  .setShaped([
+    [decorativesolidwood_1, decorativesolidwood_1, decorativesolidwood_1],
+    [decorativesolidwood_1, enchanting_table, decorativesolidwood_1],
+    [magndusts_1, idcoal_generator, magndusts_1]])
+  .addTool(artisansPencil, 1)
+  .addTool(artisansPencil, 1)
+  .addOutput(extrautils2_machine_enchant)
+  .create();

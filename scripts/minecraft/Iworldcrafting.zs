@@ -2,30 +2,32 @@
 #auther baka4n
 import crafttweaker.item.IItemStack;
 
+val water = <liquid:water>;
+
 mods.inworldcrafting.FluidToItem.transform(
     concrete, 
-    <liquid:water>, 
-    [<minecraft:concrete_powder>], 
+    water, 
+    [concrete_powder], 
     false
 );
 
 mods.inworldcrafting.FluidToItem.transform(
-    <minecraft:cobblestone>, 
-    <liquid:water>, 
-    [<tinkersurvival:rock_stone> * 4], 
+    cobble, 
+    water, 
+    [rock_stone * 4], 
     false
 );
 
 mods.inworldcrafting.FluidToItem.transform(
     <minecraft:stone>,
-    <liquid:water>, 
+    water, 
     [<contenttweaker:small_stone> * 4],
     false
 );
 
 mods.inworldcrafting.FluidToItem.transform(
     <minecraft:stone:5>,
-    <liquid:water>,
+    water,
     [<contenttweaker:andesite_pebble> * 4],
     false
 );
