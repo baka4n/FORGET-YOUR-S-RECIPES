@@ -132,7 +132,7 @@ global immmetal_device1_13 as IItemStack = <immersiveengineering:metal_device1:1
 global aluminium_scaffolding as IItemStack = <immersiveengineering:metal_decoration1:5>;
 global mc_dye_6 as IItemStack = <minecraft:dye:6>;
 global magndusts_1 as IItemStack = <magneticraft:dusts:1>;
-global extrautils2_machine_enchant as IItemStack = <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"})
+global extrautils2_machine_enchant as IItemStack = <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"});
 global fremove as IItemStack[] = [
     <minecraft:iron_ingot>
 ];
