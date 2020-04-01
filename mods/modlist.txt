@@ -1,10 +1,7 @@
-AnotherCommonBugFix(mcbbs) <------ Optional
 artisanworktables-1.12.2-1.22.15
 athenaeum-1.12.2-1.17.4
 base-1.12.2-3.13.0
 bdlib-1.14.3.12-mc1.12.2
-BetterFps-1.4.8
-CarryOn+MC1.12.2+v1.12.3
 CodeChickenLib-1.12.2-3.2.3.358-universal
 CommonCapabilities-1.12.2-2.4.5
 ContentTweaker-1.12.2-4.9.1
@@ -19,7 +16,6 @@ exnihilocreatio-1.12.2-0.4.7.2
 extrautils2-1.12-1.9.9
 Fart Generator 1.1.0
 FastWorkbench-1.12.2-1.7.2
-foamfix-0.10.5-1.12.2
 ForgeEndertech-1.12.2-4.5.0.0-build.0435
 Forgelin-1.8.4
 ForgeMultipart-1.12.2-2.6.2.83-universal
@@ -31,7 +27,6 @@ ImmersiveEngineering-0.12-92
 IntegratedCrafting-1.12.2-1.0.8
 IntegratedDynamics-1.12.2-1.1.2
 IntegratedTunnels-1.12.2-1.6.10
-InventoryTweaks-1.64+dev.146
 inworldcrafting-1.12.2-1.2.0-universal
 ItemFilters-1.0.3.12
 Just Enough Items1.12.2-4.15.0.293
@@ -57,7 +52,6 @@ TConstruct-1.12.2-2.13.0.183
 TinkerSurvival-1.12.2-1.2.2.1
 TinkerToolLeveling-1.12.2-1.1.0
 TreeGrowingSimulator2017-1.0.1
-Xaeros_Minimap_FP20.5.1_Forge_1.12
 YABBA-1.1.2.54
 
 2020 3/30 add
