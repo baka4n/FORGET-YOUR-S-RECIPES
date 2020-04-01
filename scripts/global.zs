@@ -45,8 +45,13 @@ global artisans_spanner_flint as IItemStack = <artisanworktables:artisans_spanne
 global artisans_driver_flint as IItemStack = <artisanworktables:artisans_driver_flint>;
 global flint_shard as IItemStack = <tinkersurvival:flint_shard>;
 global rock_stone as IItemStack = <tinkersurvival:rock_stone>;
+global immmetal_30 as IItemStack = <immersiveengineering:metal:30>;
+global immmetal_31 as IItemStack = <immersiveengineering:metal:31>;
+global immmetal_38 as IItemStack = <immersiveengineering:metal:38>;
 global immmetal_39 as IItemStack = <immersiveengineering:metal:39>;
 global immmaterial_1 as IItemStack = <immersiveengineering:material:1>;
+global immmaterial_2 as IItemStack = <immersiveengineering:material:2>;
+global immmaterial_3 as IItemStack = <immersiveengineering:material:3>;
 global tooltables_1 as IItemStack = <tconstruct:tooltables>;
 global tooltables_1_1 as IItemStack = <tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}});
 global tooltables_2_1 as IItemStack = <tconstruct:tooltables:2>;
@@ -97,6 +102,7 @@ global compressedcobblestone_6 as IItemStack = <extrautils2:compressedcobbleston
 global lever as IItemStack = <minecraft:lever>;
 global immtool_3 as IItemStack = <immersiveengineering:tool:3>;
 global immtool as IItemStack = <immersiveengineering:tool>;
+global redstone as IItemStack = <minecraft:redstone>;
 
 global fremove as IItemStack[] = [
     <minecraft:iron_ingot>
@@ -140,7 +146,12 @@ global removes as IItemStack[] = [
     <artisanworktables:artisans_handsaw_bone>, <artisanworktables:artisans_handsaw_gold>,
     <artisanworktables:artisans_handsaw_iron>, <artisanworktables:artisans_handsaw_diamond>,
     <integrateddynamics:drying_basin>, <extrautils2:teleporter:1>,
-    <immersiveengineering:tool:3>
+    <immersiveengineering:tool:3>, <immersiveengineering:material:8>,
+	<immersiveengineering:material:9>, <immersiveengineering:metal_decoration0:3>,
+	<immersiveengineering:metal_decoration0:4>, <immersiveengineering:metal_decoration0:5>,
+	<immersiveengineering:wooden_device0:2>, <immersiveengineering:material:2>,
+	<immersiveengineering:material:3>, <immersiveengineering:metal:38>,
+	<immersiveengineering:metal:31>, <immersiveengineering:metal:30>
 ];
 
 global strremove as string[] = [

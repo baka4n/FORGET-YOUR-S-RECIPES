@@ -29,7 +29,7 @@ RecipeBuilder.get("basic")
 
 RecipeBuilder.get("basic")
   .setShaped([
-    [grass_string, artisans_framing_hammer_flint, grass_string],
+    [strings, artisans_framing_hammer_flint, strings],
     [plankWood, crafting_table, plankWood], 
     [plankWood, plankWood, plankWood]])
   .addOutput(worktable_1)
@@ -49,6 +49,14 @@ RecipeBuilder.get("basic")
     [plankWood, crafting_table, plankWood], 
     [plankWood, plankWood, plankWood]])
   .addOutput(worktable_3)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [strings, artisans_spanner_flint, strings],
+    [plankWood, crafting_table, plankWood], 
+    [plankWood, plankWood, plankWood]])
+  .addOutput(worktable_6)
   .create();
 
 RecipeBuilder.get("basic")

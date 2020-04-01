@@ -161,3 +161,25 @@ recipes.addShaped(
         [<ore:plankWood>]
     ]
 );
+
+// Steel Scaffolding and Aluminium Scaffolding
+recipes.removeShaped(
+    <immersiveengineering:metal_decoration1:1> * 6,
+    [
+        [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+        [null, <ore:stickSteel>, null],
+		[<ore:stickSteel>, null, <ore:stickSteel>]
+    ]
+);
+
+recipes.removeShaped(
+    <immersiveengineering:metal_decoration1:5> * 6,
+    [
+        [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
+        [null, <ore:stickAluminum>, null],
+		[<ore:stickAluminum>, null, <ore:stickAluminum>]
+    ]
+);
+
+
+

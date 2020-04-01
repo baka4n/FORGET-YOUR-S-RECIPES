@@ -8,6 +8,9 @@ val plateiron = <ore:plateIron>;
 val artisansFile = <ore:artisansFile>;
 val plankWood = <ore:plankWood>;
 val artisansSpanner = <ore:artisansSpanner>;
+val steel = <ore:ingotSteel>;
+val copper = <ore:ingotCopper>;
+val aluminum = <ore:ingotAluminum>;
 
 RecipeBuilder.get("blacksmith")
   .setShaped([
@@ -15,6 +18,30 @@ RecipeBuilder.get("blacksmith")
     [iron]])
   .addTool(artisansHammer, 16)
   .addOutput(immmetal_39)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [steel],
+    [steel]])
+  .addTool(artisansHammer, 16)
+  .addOutput(immmetal_38)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [copper],
+    [copper]])
+  .addTool(artisansHammer, 16)
+  .addOutput(immmetal_30)
+  .create();
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [aluminum],
+    [aluminum]])
+  .addTool(artisansHammer, 16)
+  .addOutput(immmetal_31)
   .create();
 
 RecipeBuilder.get("blacksmith")
@@ -32,11 +59,13 @@ RecipeBuilder.get("blacksmith")
   .create();
 
 RecipeBuilder.get("blacksmith")
-  .setShaped([
-    [artisans_spanner_flint, on_the_dynamics_of_integration.reuse(), artisans_driver_flint],
-    [plankWood, crafting_table, plankWood],
-    [plankWood, plankWood, plankWood]])
-  .addTool(artisansSpanner, 30)
-  .addOutput(worktable_6)
+  .setShapeless([steel])
+  .addTool(artisansFile, 16)
+  .addOutput(immmaterial_2)
   .create();
 
+RecipeBuilder.get("blacksmith")
+  .setShapeless([aluminum])
+  .addTool(artisansFile, 16)
+  .addOutput(immmaterial_3)
+  .create();
