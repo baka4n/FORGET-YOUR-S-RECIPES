@@ -1,6 +1,7 @@
 artisanworktables-1.12.2-1.22.15
 athenaeum-1.12.2-1.17.4
 base-1.12.2-3.13.0
+BatHappyMod-1.12.2-2.1
 bdlib-1.14.3.12-mc1.12.2
 CodeChickenLib-1.12.2-3.2.3.358-universal
 CommonCapabilities-1.12.2-2.4.5
