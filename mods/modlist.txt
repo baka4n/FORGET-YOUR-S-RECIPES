@@ -50,6 +50,7 @@ Patchouli-1.0-20
 pollution-of-the-realms: AdPother-1.12.2-1.1.2.0-build.0445
 probe-0.1.22
 TConstruct-1.12.2-2.13.0.183
+TelePastries-0.3.4
 TinkerSurvival-1.12.2-1.2.2.1
 TinkerToolLeveling-1.12.2-1.1.0
 TreeGrowingSimulator2017-1.0.1
