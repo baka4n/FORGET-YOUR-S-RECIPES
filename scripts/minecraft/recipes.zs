@@ -2,6 +2,12 @@
 // auther baka4n
 import crafttweaker.item.IItemStack;
 
+val plankWood = <ore:plankWood>;
+val ore_sand = <ore:sand>;
+val ingotSteel = <ore:ingotSteel>;
+val stickSteel = <ore:stickSteel>;
+val ingotAluminum = <ore:ingotAluminum>;
+val stickAluminum = <ore:stickAluminum>;
 for k,stritem in strremove {
     recipes.removeByRecipeName(stritem);
 }
@@ -11,41 +17,25 @@ for j,fitem in fremove {
     furnace.remove(fitem);
 }
 
-furnace.addRecipe(iron, <exnihilocreatio:item_ore_iron:1>, 0.5);
-furnace.addRecipe(<contenttweaker:cement_dust>, stone);
-
 for i,item in removes {
     recipes.remove(item);
 }
 
+furnace.addRecipe(iron, item_ore_iron, 0.5);
+furnace.addRecipe(cement_dust, stone);
+
 //pickaxe
 recipes.addShaped(
-    <minecraft:wooden_pickaxe:49>,
+    wooden_pickaxe_49,
     [
-        [<ore:plankWood>, <ore:plankWood>],
-        [stick, <ore:plankWood>]
+        [plankWood, plankWood],
+        [stick, plankWood]
     ]
 );
 recipes.addShaped(
-    <minecraft:wooden_axe:49>,
+    wooden_axe_49,
     [
-        [<ore:plankWood>, <ore:plankWood>],
-        [stick, null]
-    ]
-);
-
-recipes.addShaped(
-    <minecraft:wooden_hoe:49>,
-    [
-        [<ore:plankWood>, stick],
-        [null,stick]
-    ]
-);
-
-recipes.addShaped(
-    <minecraft:wooden_shovel:49>,
-    [
-        [null, <ore:plankWood>],
+        [plankWood, plankWood],
         [stick, null]
     ]
 );
@@ -59,7 +49,7 @@ recipes.addShaped(
 );
 
 recipes.addShaped(
-    <minecraft:stone_pickaxe:91>,
+    stone_pickaxe_91,
     [
         [stone, stone, stone],
         [null, stick, stone], 
@@ -105,11 +95,11 @@ recipes.addShaped(
 
 // concrete_powder
 recipes.addShaped(
-    <minecraft:concrete_powder>,
+    concrete_powder,
     [
-        [<ore:sand>, <minecraft:dirt>, <ore:sand>],
-        [flint, <minecraft:dye:15>, flint], 
-        [flint, <minecraft:dirt>, flint]
+        [ore_sand, dirt, ore_sand],
+        [flint, mc_dye_15, flint], 
+        [flint, dirt, flint]
     ]
 );
 
@@ -117,67 +107,67 @@ recipes.addShaped(
 recipes.addShaped(
     <minecraft:stone>,
     [
-        [<contenttweaker:small_stone>, <contenttweaker:small_stone>],
-        [<contenttweaker:small_stone>, <contenttweaker:small_stone>]
+        [small_stone, small_stone],
+        [small_stone, small_stone]
     ]
 );
 
 recipes.addShaped(
-    <minecraft:stone:5>,
+    stone_5,
     [
-        [<contenttweaker:andesite_pebble>, <contenttweaker:andesite_pebble>],
-        [<contenttweaker:andesite_pebble>, <contenttweaker:andesite_pebble>]
+        [andesite_pebble, andesite_pebble],
+        [andesite_pebble, andesite_pebble]
     ]
 );
 
 recipes.addShaped(
-    <artisanworktables:artisans_handsaw_flint>,
+    artisans_handsaw_flint,
     [
-        [<tinkersurvival:crude_saw_blade>, stick],
+        [crude_saw_blade, stick],
         [stick, grass_string]
     ]
 );
 
 recipes.addShaped(
-    <artisanworktables:artisans_framing_hammer_flint>,
+    artisans_hammer_flint,
     [
         [flint, grass_string],
-        [stick, <tinkersurvival:flint_shard>]
+        [stick, flint_shard]
     ]
 );
 
 recipes.addShaped(
-    <artisanworktables:artisans_cutters_flint>,
+    artisans_cutters_flint,
     [
-        [<tinkersurvival:crude_knife>, null],
-        [grass_string, <tinkersurvival:crude_knife>]
+        [crude_knife, null],
+        [grass_string, crude_knife]
     ]
 );
 
 recipes.addShaped(
     crafting_table,
     [
-        [<contenttweaker:tool_kit_basic>],
-        [<ore:plankWood>]
+        [tool_kit_basic],
+        [plankWood]
     ]
 );
 
 // Steel Scaffolding and Aluminium Scaffolding
 recipes.removeShaped(
-    <immersiveengineering:metal_decoration1:1> * 6,
+    steel_scaffolding * 6,
     [
-        [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-        [null, <ore:stickSteel>, null],
-		[<ore:stickSteel>, null, <ore:stickSteel>]
+        [ingotSteel, ingotSteel, ingotSteel],
+        [null, stickSteel, null],
+		[stickSteel, null, stickSteel]
     ]
 );
 
 recipes.removeShaped(
-    <immersiveengineering:metal_decoration1:5> * 6,
+    aluminium_scaffolding * 6,
     [
-        [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>],
-        [null, <ore:stickAluminum>, null],
-		[<ore:stickAluminum>, null, <ore:stickAluminum>]
+        [ingotAluminum, ingotAluminum, ingotAluminum],
+        [null, stickAluminum, null],
+		[stickAluminum, null, stickAluminum]
     ]
 );
 
