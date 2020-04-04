@@ -129,7 +129,7 @@ recipes.addShaped(
 );
 
 recipes.addShaped(
-    artisans_hammer_flint,
+    artisans_framing_hammer_flint,
     [
         [flint, grass_string],
         [stick, flint_shard]
